@@ -1,4 +1,4 @@
-#!/home/calamityesp/Learning/boot.dev/Asteroids/venv/bin/python3
+#!/home/calamityesp/Learning/boot.dev/Asteroids/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
