@@ -1,28 +1,16 @@
-"""
-Module Asteroids
-
-Recreation of the asteroids game in Python
-
-Classes:
-
-Functions:
-
-Usage example:
-    Play Asteroids: This will use pygame to allow you to play asteroids
-"""
-
 import pygame
 
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
+from player import Player
 
 
 def main():
-    """
-    This is the main function for the asteroids game
-    """
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     time_clock = pygame.time.Clock()
     dt = 0
+    x = SCREEN_WIDTH / 2
+    y = SCREEN_HEIGHT / 2
+    player = Player(x, y)
 
     print("Starting asteroids!")
     print(f"Screen width: {SCREEN_WIDTH}")
